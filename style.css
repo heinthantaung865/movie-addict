@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+    background-color: #2b2b2b;
+    color: white;
+    /* overflow-x: hidden; */
+    font-family: "Plus Jakarta Sans";
+}
+.nav li {
+    list-style-type: none;
+}
+.nav {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #151515;
+    padding: 30px 30px;
+    align-items: center;
+}
+.nav button {
+    height: 25px;
+    width: 80px;
+    background-color: #c10f0f;
+    color: white;
+    border-radius: 10px;
+}
+.title {
+    color: #c10f0f;
+    font-size: 30px;
+}
+.icon {
+    transform: translate(-10px,-5px);
+    width: 30px;
+    display: inline-block;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.premiumIcon {
+    width: 100%;
+}
+.nav li {
+    color: white;
+}
+.nav li:first-child {
+    color: #ffb900;
+}
+.nav {
+    width: 50%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.antManPoster{
+    width: 100%;
+}
+.heroSection{
+    color: white;
+    position: relative;
+}
+.heroSection .text {
+    position: absolute;
+    bottom: 20%;
+    left: 30px;
+    margin: 0;
+    font-size: 25px;
+}
+.heroSection p:nth-of-type(2){
+    font-size: 35px;
+    margin: 0;
+}
+.heroSection p:last-child{
+    vertical-align: middle;
+}
+.star {
+    width: 30px;
+    transform: translate(-3px 20px);
+}
+.watchNowBtn .icon {
+    transform: translateY(3px) translateX(-5px);
+    width: 20px;
+    vertical-align: middle;
+}
+.watchNowBtn {
+    background-color: #c10f0f;
+    padding: 8px 3px;
+    width: 15%;
+    border-style: none;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 5%;
+    left: 80%;
+    font-size: 20px;
+}
+.watchNow {
+    width: 100%;
+}
+.feacturedMovies, .quoteText, .feacturedSeries {
+    color: #c10f0f;
+    font-size: 35px;
+    width: 20%;
+    display: inline-block;
+}
+.line {
+    width: 79%;
+    height: 3px;
+    background-color: #c10f0f;
+    display: inline-block;
+    transform: translateY(-10px);
+}
+.container {
+    padding: 0 30px;
+    clear: both;
+}
+.movies, .series {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    flex-wrap: wrap;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.icons img {
+    width: 20px;
+}
+.movies > div,.series > div {
+    border-radius: 20px;
+    overflow: hidden;background-color: #151515;
+    
+}
+.icons div div{
+    transform: translate(2px, -5px) !important;
+    display: inline-block;
+}
+.watchlistBtn {
+    display: flex;
+    justify-content: center;
+}
+.watchlistBtn button {
+    width: 150px;
+    height: 30px;
+    background-color: transparent;
+    color: #ffb900;
+    border-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 10px;
+}
+.movieContainer {
+    padding: 0 10px;
+}
+.watchlistBtn span {
+    font-size: 25px;
+}
+.seeMore {
+    color: #ffb900;
+    float: right;
+    padding-right: 30px;
+}
+.quotePic {
+    width: 100%;
+}
+.containerQuote {
+    position: relative;
+}
+.quote p:first-child {
+    position: absolute;
+    bottom: 50%;
+    left: 65%;
+    font-size: 40px;
+}
+.quote p:last-child {
+    position: absolute;
+    bottom: 40%;
+    left: 75%;
+    font-size: 30px;
+    color: #ffb900;
+}
+.quote {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.socialIcon {
+    width: 40px;
+    margin: 0 15px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    background-color: #151515;
+    padding: 30px;
+}
+.movieAddict {
+    text-align: center;  
+}
+.movieAddict p:first-child {
+    color: #c10f0f;
+    font-size: 25px;
+    margin: 0;
+}
+.footerNav div {
+    line-height: 30px;
+}
+.social div p {
+    transform: translateX(70px);
+    font-size: 25px;
+}
+@media (max-width : 1230px){
+    .quote p:first-child {
+        font-size: 30px;
+    }
+    .quote p:last-child {
+        font-size: 20px;
+    }
+}
+@media (max-width : 880px){
+    .quote p:first-child {
+        font-size: 20px;
+    }
+    .quote p:last-child {
+        font-size: 10px;
+    }
+    .heroSection .text {
+        font-size: 18px;
+    }
+}
+@media (max-width : 590px){
+    .quote p:first-child {
+        font-size: 20px;
+        bottom: 25%;
+    }
+    .quote p:last-child {
+        font-size: 10px;
+        bottom: 15%;
+    }
+    .heroSection .text {
+        font-size: 16px;
+    }
+}
+@media (max-width : 500px){
+    .quote p:first-child {
+        font-size: 20px;
+        bottom: 20%;
+    }
+    .quote p:last-child {
+        font-size:15px;
+        bottom: 3%;
+    }
+}
+@media (max-width : 980px){
+    .watchNowBtn {
+        font-size: 13px;
+        /* width: 20%; */
+    }
+}
+@media (max-width : 690px){
+    .watchNowBtn {
+        font-size: 10px;
+        padding: 5px 0;
+    }
+    .title {
+        font-size: 20px;
+    }
+}
+@media (width : 500px){
+    .watchNowBtn {
+        font-size: 10px;
+        padding: 5px 0;
+        transform: translateX(-10px);
+        width: 20%;
+    }
+}
+@media (max-width : 1000px){
+    .socialIcon {
+        width: 30px;
+        margin: 0 10px;
+    }
+    .social div p {
+        transform: translateX(30px);
+        font-size: 20px;
+    }
+    .feacturedMovies, .quoteText, .feacturedSeries {
+        font-size: 20px;
+    }
+}
+@media (max-width : 938px){
+    .socialIcon {
+        width: 30px;
+        margin: 0;
+    }
+    .social div p {
+        transform: translateX(0px);
+        font-size: 20px;
+    }
+}
+
